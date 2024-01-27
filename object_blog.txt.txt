@@ -1,0 +1,42 @@
+2.Write a blog about objects and its internal representation in Javascript
+Ans:
+
+Object is a nonpremetive data type in Javascript, which is haing  key : value pair, which is placed in flower brases{}.
+eg: obj={
+    key:value,
+    key1:value1,
+    ......
+}
+
+For example, let’s create an object named myCar and give it properties named make, model, and year as follows:
+
+var myCar = {
+myCar.make = 'Ford';
+myCar.model = 'Mustang';
+myCar.year = 1969;
+myCar.color; // undefined [Unassigned properties of an object are undefined (and not null).]
+}
+
+You access the value of an object with a simple dot-notation:
+objectName.keynameName
+eg: mycar.make
+
+Properties of JavaScript objects can also be accessed or set using a bracket notation, we can use space, hyphen, or that starts with a number in propertyname can only be accesses using bracket notation
+
+eg:
+myCar['make of car'] = 'Ford';
+myCar['model of car'] = 'Mustang';
+myCar['year of manfacuture'] = 1969;
+
+If we want to add new property to our object then we can add it using dot notation bracket notation(if property name has space/hyphen/starts with number)
+
+eg:
+
+mycar.color='red'
+my car['seat capaity']= 4;
+
+
+If we want to delete any property then we can delete it using detete objectName.keynameName
+
+eg: delete mycar.make
+
